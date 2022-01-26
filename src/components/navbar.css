@@ -1,0 +1,48 @@
+.navbar{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid #000;
+    border-width: 1px;
+    border-radius: 30px ;
+    
+  }
+  .navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .Workshops-active{
+      display: flex;
+      flex-direction: column;
+      margin-left: -12vw;
+     
+      
+  }
+  .Workshops-passive{
+    display: none;
+    
+}
+.prog-active{
+    display: flex;
+    flex-direction: column;
+}
+.prog-passive{
+  display: none;
+  
+}
+.list-element{
+    border: solid #000;
+    border-width: 1px;
+    background-color: gray;
+    width: 100px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
