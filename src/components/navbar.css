@@ -38,7 +38,7 @@
 .list-element{
     border: solid #000;
     border-width: 1px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0);
     width: 100px;
 }
 .flex-container{
