@@ -28,7 +28,8 @@ function Navbar() {
             </div>
           </div>
 
-          <div className="navbar-items"
+          <div
+            className="navbar-items"
             onMouseLeave={() => {
               setProgram(false);
             }}
@@ -55,18 +56,34 @@ function Navbar() {
         </div>
       </div>
       <div className="flex-container">
-      <div className={Workshop ? "Workshops-active" : "Workshops-passive"}>
-        <div className="list-element"> Workshop 1</div>
-        <div className="list-element"> Workshop 2</div>
-        <div className="list-element"> Workshop 3</div>
-      </div>
+        <div
+          onMouseLeave={() => {
+            setWorkshop(false);
+          }}
+          onMouseEnter={() => {
+            setWorkshop(true);
+          }}
+          className={Workshop ? "Workshops-active" : "Workshops-passive"}
+        >
+          <div className="list-element"> Workshop 1</div>
+          <div className="list-element"> Workshop 2</div>
+          <div className="list-element"> Workshop 3</div>
+        </div>
       </div>
       <div className="flex-container">
-      <div className={Program ? "prog-active" : "prog-passive"}>
-        <div className="list-element"> prog 1</div>
-        <div className="list-element"> prog 2</div>
-        <div className="list-element"> prog 3</div>
-      </div>
+        <div
+          onMouseLeave={() => {
+            setProgram(false);
+          }}
+          onMouseEnter={() => {
+            setProgram(true);
+          }}
+          className={Program ? "prog-active" : "prog-passive"}
+        >
+          <div className="list-element"> prog 1</div>
+          <div className="list-element"> prog 2</div>
+          <div className="list-element"> prog 3</div>
+        </div>
       </div>
     </>
   );
