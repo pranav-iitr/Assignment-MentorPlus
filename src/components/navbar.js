@@ -70,7 +70,7 @@ function Navbar() {
           <div className="list-element"> Workshop 3</div>
         </div>
       </div>
-      <div className="flex-container">
+      {/* <div className="flex-container">
         <div
           onMouseLeave={() => {
             setProgram(false);
@@ -84,7 +84,7 @@ function Navbar() {
           <div className="list-element"> prog 2</div>
           <div className="list-element"> prog 3</div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

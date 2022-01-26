@@ -1,3 +1,49 @@
+h1{
+  font-size: 55px;
+  font-weight: bolder;
+  color: #003C3C;
+  font-family: Raleway;
+ 
+
+}
+h2{
+ 
+  width: 50vw;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 100;
+  color: #99B4AF;
+}
+.header-2{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
 .App {
+  
+}
+.dots{
+  width: 80px;
+  height: 100px;
+  opacity: 0.6;
+  margin-top:-65px;
+  margin-left: 890px;
+}
+.button_container_1{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 500;
+  
+}
+.Sub_container_1{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 300px;
   text-align: center;
 }
