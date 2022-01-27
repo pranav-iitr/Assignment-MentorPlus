@@ -17,6 +17,10 @@
     align-items: center;
     margin-top: 20px;
   }
+
+.navbar-items{
+  height: 50px;
+}
   .Workshops-active{
       display: flex;
       flex-direction: column;
