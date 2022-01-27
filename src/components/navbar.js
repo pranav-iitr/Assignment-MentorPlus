@@ -1,15 +1,17 @@
-import React from "react";
-import { useState } from "react";
+import React , {useState } from "react";
 import "../components/navbar.css";
+
 function Navbar() {
   const [Workshop, setWorkshop] = useState(false);
   const [Program, setProgram] = useState(false);
   return (
     <>
+   
       <div className="navbar-container">
         <div className="navbar">
           <div className="navbar-items">
             <div>
+              
               <pre> About </pre>
             </div>
           </div>

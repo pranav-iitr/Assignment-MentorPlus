@@ -1,14 +1,32 @@
 import logo from "./logo.svg";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
 import Gradaint_button from "./components/gradaint_button";
 import Animation from "./components/animation";
-
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
 function App() {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
   return (
     <div className="App">
+       { useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [])  }
       <Navbar />
-      <div className="button_top"><Gradaint_button text="join as mentors" /></div>
+      {console.log(windowDimensions.height)}
+      <div className="button_top"><Gradaint_button text={windowDimensions.width>900? "join as mentors":"menu"} /></div>
       <div className="Sub_container_1">
         <div><h1>Never Get Blank in job Interviwes</h1></div>
         <div className="header-2">
