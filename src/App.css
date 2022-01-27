@@ -56,6 +56,24 @@ h2{
   
   justify-content: center;
 }
+.dots1{
+  width: 120px;
+  height: 100px;
+  opacity: 0.6;
+  margin-top:-350px;
+  margin-left: 20px;
+  position:absolute;
+  z-index: -1;
+}
+.dots2{
+  width: 50px;
+  height: 50px;
+  opacity: 0.6;
+  margin-top:-360px;
+  right: 0;
+  position:absolute;
+  z-index: -1;
+}
 @media screen and (max-width: 900px) {
  
     .button_top{
@@ -63,5 +81,17 @@ h2{
       width: 100%;
       
    
+  }
+  h1{
+    font-size: 30px;
+  }
+  .dots{
+    display: none;
+  }
+  .dots1{
+    display: none;
+  }
+  .dots2{
+    display: none;
   }
 }

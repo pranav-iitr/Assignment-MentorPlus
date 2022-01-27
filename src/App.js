@@ -42,7 +42,10 @@ function App() {
       </div>
       
       <img className="dots" src={require("../src/components/Union.png")} />
+      
        <Animation/>
+       <img className="dots1" src={require("../src/components/Union.png")} /> 
+       <img className="dots2" src={require("../src/components/Union.png")} />
     </div>
   );
 }
