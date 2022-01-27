@@ -228,3 +228,34 @@
     margin-top: -40px;
     opacity: 0.6;
   }
+  .example-appear {
+    opacity: 0.04;
+ }
+ .example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity 10s ease-in;
+ }
+ .example1-appear {
+  opacity: 0.0;
+}
+.example1-appear.example1-appear-active {
+  opacity: 1;
+  animation-delay: 20s;
+  transition: opacity 10s ease-in;
+}
+.example2-appear {
+  opacity: 0.0;
+}
+.example2-appear.example2-appear-active {
+  opacity: 2;
+  animation-delay: 30s;
+  transition: opacity 20s ease-in;
+}
+.example3-appear {
+  opacity: 0;
+}
+.example3-appear.example3-appear-active {
+  opacity: 2;
+  animation-delay: 40s;
+  transition: opacity 50s ease-in;
+}

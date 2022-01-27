@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Gradaint_button from "./components/gradaint_button";
 import Animation from "./components/animation";
+
 function App() {
   return (
     <div className="App">
