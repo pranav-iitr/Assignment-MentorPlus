@@ -8,7 +8,7 @@ h1{
 }
 h2{
  
-  width: 50vw;
+  width: 40vw;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 100;
@@ -26,11 +26,11 @@ h2{
   
 }
 .dots{
-  width: 80px;
+  width: 100px;
   height: 100px;
   opacity: 0.6;
   margin-top:-65px;
-  margin-left: 890px;
+  margin-left: 56vw;
 }
 .button_container_1{
   display:flex;

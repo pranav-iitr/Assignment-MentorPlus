@@ -1,0 +1,230 @@
+.circle_1 {
+  height: 125px;
+  width: 125px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-top: -25vh;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+.photo_circle_1 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+.circle_2 {
+  height: 135px;
+  width: 135px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 265px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+.photo_circle_2 {
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+}
+.circle_3 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 560px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+.photo_circle_3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.circle_4 {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 750px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+.photo_circle_4 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.circle_5 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 950px;
+    margin-top: -305px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+  }
+  .photo_circle_5 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  }
+  .circle_6 {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 1150px;
+    margin-top: -255px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+  }
+  .photo_circle_6 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .circle_7 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 1400px;
+    margin-top: -120px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+  }
+  .photo_circle_7 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  }
+.photo_4 {
+  height: 100px;
+  width: 200px;
+  margin-top: 40px;
+}
+.photo_7{
+    height: 100px;
+    width: 200px;
+    margin-left: 1200px;
+    margin-top: 400px;
+}
+.flex_verticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.line_1 {
+  width: 170px;
+  height: 0.01px;
+  background-color: gray;
+  border: solid gray;
+  border-width: 0.01px;
+  transform: rotate(30deg);
+  margin-left: 100px;
+  margin-top: 20px;
+  opacity: 0.6;
+}
+.line_2 {
+  width: 200px;
+  height: 0.1px;
+  background-color: gray;
+  border: solid gray;
+  border-width: 0.01px;
+  transform: rotate(30deg);
+  margin-left: 380px;
+  opacity: 0.6;
+}
+.line_3 {
+  width: 180px;
+  height: 0.1px;
+  background-color: gray;
+  border: solid gray;
+  border-width: 0.01px;
+  transform: rotate(-35deg);
+  margin-left: 110px;
+  margin-top: -70px;
+  opacity: 0.6;
+}
+
+.line_4 {
+  width: 200px;
+  height: 0.1px;
+  background-color: gray;
+  border: solid gray;
+  border-width: 0.01px;
+  transform: rotate(40deg);
+  margin-left: 590px;
+  margin-top: -130px;
+  opacity: 0.6;
+}
+
+
+.line_5 {
+    width: 370px;
+    height: 0.1px;
+    background-color: gray;
+    border: solid gray;
+    border-width: 0.01px;
+    transform: rotate(-25deg);
+    margin-left: 600px;
+    margin-top: 50px;
+    opacity: 0.6;
+  }
+  
+.line_6 {
+    width: 130px;
+    height: 0.1px;
+    background-color: gray;
+    border: solid gray;
+    border-width: 0.01px;
+    transform: rotate(-35deg);
+    margin-left: 1025px;
+    margin-top: 20px;
+    opacity: 0.6;
+  }
+ 
+  .line_7 {
+    width: 190px;
+    height: 0.1px;
+    background-color: gray;
+    border: solid gray;
+    border-width: 0.01px;
+    
+    margin-left: 1210px;
+    margin-top: -50px;
+    opacity: 0.6;
+  }
+.line_8 {
+    width: 330px;
+    height: 0.1px;
+    background-color: gray;
+    border: solid gray;
+    border-width: 0.01px;
+    transform: rotate(-60deg);
+    margin-left: 720px;
+    margin-top: -190px;
+    opacity: 0.6;
+  }
+  .line_9 {
+    width: 330px;
+    height: 0.1px;
+    background-color: gray;
+    border: solid gray;
+    border-width: 0.01px;
+    transform: rotate(45deg);
+    margin-left: 990px;
+    margin-top: -40px;
+    opacity: 0.6;
+  }

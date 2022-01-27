@@ -2,12 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/navbar";
 import Gradaint_button from "./components/gradaint_button";
-
+import Animation from "./components/animation";
 function App() {
   return (
     <div className="App">
       <Navbar />
-      
+
       <div className="Sub_container_1">
         <div><h1>Never Get Blank in job Interviwes</h1></div>
         <div className="header-2">
@@ -18,11 +18,12 @@ function App() {
         </div>
         <div className="button_container_1">
          
-          <Gradaint_button text="Join us as a Mentor" />
+          <Gradaint_button text="Explore Programs" />
         </div>
       </div>
       
       <img className="dots" src={require("../src/components/Union.png")} />
+       <Animation/>
     </div>
   );
 }
