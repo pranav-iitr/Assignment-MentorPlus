@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
+      <div className="button_top"><Gradaint_button text="join as mentors" /></div>
       <div className="Sub_container_1">
         <div><h1>Never Get Blank in job Interviwes</h1></div>
         <div className="header-2">

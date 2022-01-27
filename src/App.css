@@ -47,3 +47,12 @@ h2{
   height: 300px;
   text-align: center;
 }
+.button_top{
+  position: absolute;
+  text-align: center;
+  top:20px;
+  display: flex;
+  width: 165%;
+  
+  justify-content: center;
+}
