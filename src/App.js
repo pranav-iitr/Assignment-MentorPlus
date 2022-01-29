@@ -26,7 +26,7 @@ function App() {
   }, [])  }
       <Navbar />
       {console.log(windowDimensions.height)}
-      <div className="button_top"><Gradaint_button text={windowDimensions.width>900? "join as mentors":"menu"} /></div>
+      <div className="button_top"><Gradaint_button text={windowDimensions.width>900? "join as mentors":"menu"} w={windowDimensions.width>900? 240:90} /></div>
       <div className="Sub_container_1">
         <div><h1>Never Get Blank in job Interviwes</h1></div>
         <div className="header-2">
